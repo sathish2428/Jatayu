@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0; 
+    font-family:arima_koshisemi_bold;
+}
+.bg-dark-blue{
+    background: #34495E  ;
+}
+
+
+/***** Brand Logo and About *****/
+/*
+.brand-logo{
+    transform: translate(-50%,-50%);
+    animation: brand-logo-rotate infinite 5s ;
+}
+@keyframes brand-logo-rotate{
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+*/
+
+
+/***** NAVIGATION BAR ******/
+.navbar{
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+    margin-top: 50px;
+    position: relative;
+   
+}
+.navbar li{
+    width: 200px;
+    position: relative;
+    margin: 0;
+
+}
+.navbar li:after{
+     content:"";
+    width: 100%;
+    background-color:#B9FF4C;
+    position: absolute;
+    height: 10px;
+    bottom: -8px;
+    left: 0;
+    padding: 0;
+    z-index: 1;
+   
+  
+}
+.navbar li:nth-child(1):after{
+    background: #D6FD7C;
+      box-shadow: 0px 0px 10px #D6FD7C;
+}
+.navbar li:nth-child(2):after{
+    background: #8C7CFD;
+      box-shadow: 0px 0px 10px #8C7CFD;
+}
+.navbar li:nth-child(3):after{
+    background: #FDF57C;
+      box-shadow: 0px 0px 10px #FDF57C;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.navbar:after{
+    content:"";
+    width: 100%;
+    background-color:#FF6C4C;
+    position: absolute;
+    height: 10px;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+     box-shadow: 0 0 10px #FF6C4C;
+}
