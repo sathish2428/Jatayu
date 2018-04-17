@@ -1,0 +1,2 @@
+# jatayu
+Media coverage is a blessing for small businesses - If your profile goes up, so will your sales. However, marketing campaigns could be costly. Free publicity is a great way to increase the profile of your business. While traditional print media still has clout, in a world of "viral" marketing and social media, what other options are out there? For that we(Jatayu 360*) team taken a step to come forward into market with all your inner thoughts to explore 360* in market.
