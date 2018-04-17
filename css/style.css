@@ -11,6 +11,7 @@ html, body{
     margin: 0;
     padding: 0; 
     font-family:arima_koshisemi_bold;
+    
 }
 .bg-dark-blue{
     background: #34495E  ;
@@ -18,8 +19,13 @@ html, body{
 
 
 /***** Brand Logo and About *****/
-/*
+
 .brand-logo{
+    transition: 2s all;
+    transform-style: preserve-3d;
+   
+    
+/*
     transform: translate(-50%,-50%);
     animation: brand-logo-rotate infinite 5s ;
 }
@@ -30,8 +36,14 @@ html, body{
     100%{
         transform: rotateY(360deg);
     }
-}
 */
+}
+
+.brand-logo:hover{
+    transform: scale(1.5);
+    transition: 3s all;
+   
+}
 
 
 /***** NAVIGATION BAR ******/
@@ -40,14 +52,16 @@ html, body{
     border-top-right-radius: 10px;
     margin-top: 50px;
     position: relative;
-   
+   box-shadow: 0 0 10px #FF6C4C
 }
 .navbar li{
     width: 200px;
     position: relative;
     margin: 0;
+    text-align: center
 
 }
+
 .navbar li:after{
      content:"";
     width: 100%;
@@ -72,6 +86,7 @@ html, body{
 .navbar li:nth-child(3):after{
     background: #FDF57C;
       box-shadow: 0px 0px 10px #FDF57C;
+    
 }
 .navbar .navbar-nav .nav-item .nav-link {
     color: #fff;
